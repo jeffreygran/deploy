@@ -2519,8 +2519,8 @@ function Deploy-CAM() {
 
     $CAMConfig.internal.agentChannel = $AgentChannel
 
-    $CAMConfig.internal.standardVMSize = "Standard_D2_v3"
-    $CAMConfig.internal.graphicsVMSize = "Standard_NV6"
+    $CAMConfig.internal.standardVMSize = "Standard_D2_v2"
+    $CAMConfig.internal.graphicsVMSize = "Standard_NV12s_v3"
     $CAMConfig.internal.agentARM = "server2016-standard-agent.json"
     $CAMConfig.internal.gaAgentARM = "server2016-graphics-agent.json"
     $CAMConfig.internal.linuxAgentARM = "rhel-standard-agent.json"
